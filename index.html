@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DevOps Mastery Roadmap - 45 Days</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white">
+
+  <header class="text-center py-10">
+    <h1 class="text-4xl font-bold">🚀 45-Day DevOps Mastery Roadmap</h1>
+    <p class="text-gray-400 mt-2">A complete hands-on journey from beginner to job-ready DevOps engineer</p>
+  </header>
+
+  <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4 p-6">
+
+    <!-- Days -->
+    <script>
+      const roadmap = [
+        "DevOps + Linux Basics",
+        "SDLC + CI/CD",
+        "Git Basics",
+        "Git Branching",
+        "GitLab Setup",
+        "Docker Fundamentals",
+        "Containers Lifecycle",
+        "Port Mapping",
+        "Docker Images",
+        "Docker System",
+        "Dockerfile Creation",
+        "Terraform Basics",
+        "Terraform Setup",
+        "Variables",
+        "State",
+        "Functions",
+        "Provisioners",
+        "Terraform Project",
+        "Ansible Basics",
+        "Playbooks",
+        "Variables",
+        "Error Handling",
+        "Roles",
+        "Ansible Project",
+        "Jenkins Architecture",
+        "Jenkins Basics",
+        "Pipeline",
+        "Triggers",
+        "CI + Coverage",
+        "Jenkins Project",
+        "K8s Architecture",
+        "Pods",
+        "Services",
+        "Health Checks",
+        "Troubleshooting",
+        "Advanced Debugging",
+        "Namespaces",
+        "Init Containers",
+        "Autoscaling",
+        "K8s Project",
+        "GitOps + Helm",
+        "Helm Pipelines",
+        "Monitoring",
+        "Final Project",
+        "Resume + Interview"
+      ];
+
+      document.write(roadmap.map((topic, index) => `
+        <div class="bg-gray-800 p-4 rounded-2xl shadow-lg hover:scale-105 transition">
+          <h2 class="text-xl font-semibold">Day ${index + 1}</h2>
+          <p class="text-gray-400 mt-2">${topic}</p>
+        </div>
+      `).join(''));
+    </script>
+
+  </div>
+
+  <footer class="text-center py-6 text-gray-500">
+    Built for DevOps learners • Stay consistent 🔥
+  </footer>
+
+</body>
+</html>
