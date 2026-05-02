@@ -8,19 +8,17 @@
 </head>
 <body class="bg-gray-900 text-white">
 
-  <!-- HERO SECTION -->
+  <!-- HERO -->
   <section class="text-center py-12 px-6">
     <h1 class="text-5xl font-bold">🚀 DevOps Career Launchpad</h1>
     <p class="text-gray-400 mt-4 max-w-2xl mx-auto">
-      Master DevOps in 45 Days with a structured, hands-on roadmap covering Docker, Kubernetes, CI/CD, Cloud & Monitoring.
+      A complete beginner-to-advanced DevOps roadmap with real tools, real projects, and job-ready skills.
     </p>
 
-    <!-- Logos -->
     <div class="flex justify-center gap-6 mt-6 text-3xl">
-      🐳 ☸️ ⚙️ 🔁 📦 ☁️
+      🐳 ☸️ ⚙️ 🔁 📦 ☁️ 📊
     </div>
 
-    <!-- Pricing -->
     <div class="mt-8">
       <p class="text-gray-400">Course Fee</p>
       <h2 class="text-3xl font-bold">
@@ -30,105 +28,313 @@
     </div>
   </section>
 
-  <!-- ABOUT SECTION -->
+  <!-- ABOUT -->
   <section class="px-6 max-w-5xl mx-auto text-center mb-10">
-    <h2 class="text-2xl font-semibold mb-4">What is DevOps?</h2>
+    <h2 class="text-2xl font-semibold mb-4">Why DevOps?</h2>
     <p class="text-gray-400">
-      DevOps is a modern software engineering practice that combines development and operations to deliver software faster and more reliably using automation, CI/CD pipelines, and cloud infrastructure.
+      DevOps combines development, operations, and automation to deliver applications faster using tools like Docker, Kubernetes, Jenkins, Terraform, and cloud platforms.
     </p>
 
-    <h2 class="text-2xl font-semibold mt-8 mb-4">Who Should Learn?</h2>
+    <h2 class="text-2xl font-semibold mt-8 mb-4">Career Opportunities</h2>
     <p class="text-gray-400">
-      Students, Developers, System Admins, Freshers, and anyone aiming for high-paying tech careers.
-    </p>
-
-    <h2 class="text-2xl font-semibold mt-8 mb-4">Opportunities</h2>
-    <p class="text-gray-400">
-      DevOps Engineers are among the highest-paid roles with opportunities in cloud, automation, and platform engineering across startups and MNCs.
+      Roles include DevOps Engineer, Cloud Engineer, Site Reliability Engineer (SRE), Platform Engineer with high salary growth.
     </p>
   </section>
 
-  <!-- ROADMAP GRID -->
+  <!-- GRID -->
   <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4 p-6">
-    <script>
-      const roadmap = [
-        {title:"DevOps + Linux",desc:"Understand DevOps lifecycle, Linux basics, commands"},
-        {title:"SDLC + CI/CD",desc:"Learn pipelines, automation, delivery flow"},
-        {title:"Git Basics",desc:"Version control, commits, push/pull"},
-        {title:"Branching",desc:"Git workflows & strategies"},
-        {title:"GitLab",desc:"Repo setup & collaboration"},
-        {title:"Docker",desc:"Containers & virtualization"},
-        {title:"Containers",desc:"Lifecycle & execution"},
-        {title:"Networking",desc:"Port mapping & exposure"},
-        {title:"Images",desc:"Manage Docker images"},
-        {title:"System",desc:"Docker internals"},
-        {title:"Dockerfile",desc:"Build custom images"},
-        {title:"Terraform",desc:"IaC basics"},
-        {title:"Setup",desc:"Providers & configs"},
-        {title:"Variables",desc:"Dynamic infra configs"},
-        {title:"State",desc:"State management"},
-        {title:"Functions",desc:"Built-in logic"},
-        {title:"Provisioners",desc:"Execute scripts"},
-        {title:"Project",desc:"Deploy infra project"},
-        {title:"Ansible",desc:"Automation basics"},
-        {title:"Playbooks",desc:"Task automation"},
-        {title:"Variables",desc:"Dynamic configs"},
-        {title:"Error Handling",desc:"Failure control"},
-        {title:"Roles",desc:"Reusable configs"},
-        {title:"Project",desc:"Real-world automation"},
-        {title:"Jenkins",desc:"CI/CD server"},
-        {title:"Basics",desc:"Setup & jobs"},
-        {title:"Pipeline",desc:"Build pipelines"},
-        {title:"Triggers",desc:"Automation triggers"},
-        {title:"CI",desc:"Integration flows"},
-        {title:"Project",desc:"CI/CD pipeline"},
-        {title:"K8s",desc:"Architecture"},
-        {title:"Pods",desc:"Deploy workloads"},
-        {title:"Services",desc:"Expose apps"},
-        {title:"Health",desc:"Readiness/Liveness"},
-        {title:"Debug",desc:"Troubleshooting"},
-        {title:"Advanced",desc:"Deep debugging"},
-        {title:"Namespace",desc:"Isolation"},
-        {title:"Init",desc:"Init containers"},
-        {title:"Autoscale",desc:"Scaling apps"},
-        {title:"Project",desc:"Deploy cluster"},
-        {title:"GitOps",desc:"Git-driven deploy"},
-        {title:"Helm",desc:"Package manager"},
-        {title:"Monitoring",desc:"Prometheus + Grafana"},
-        {title:"Final",desc:"End-to-end project"},
-        {title:"Career",desc:"Resume + interview prep"}
-      ];
 
-      document.write(roadmap.map((item, index) => `
-        <div onclick="openModal(${index})" class="cursor-pointer bg-gray-800 p-4 rounded-2xl shadow-lg hover:scale-105 transition">
-          <h2 class="text-lg font-semibold">Day ${index + 1}</h2>
-          <p class="text-gray-400 mt-2">${item.title}</p>
-        </div>
-      `).join(''));
+<script>
+const roadmap = [
+{
+ title:"DevOps + Linux",
+ desc:`• What is DevOps lifecycle
+• Linux basics (commands, permissions)
+• Shell scripting basics
+• Real-world usage in servers`
+},
+{
+ title:"CI/CD Concepts",
+ desc:`• What is CI/CD pipeline?
+• Continuous Integration vs Deployment
+• Tools overview: Jenkins, GitLab CI
+• How code moves to production`
+},
+{
+ title:"Git Basics",
+ desc:`• Git init, clone, commit, push
+• Version control importance
+• Working with repositories`
+},
+{
+ title:"Branching",
+ desc:`• Git branching strategies
+• Feature branch, main, dev
+• Merge vs rebase`
+},
+{
+ title:"GitLab",
+ desc:`• Repo hosting
+• CI/CD pipelines intro
+• Webhooks & automation`
+},
+{
+ title:"Docker",
+ desc:`• What is containerization?
+• Docker vs VM
+• Installing Docker
+• Basic commands`
+},
+{
+ title:"Containers",
+ desc:`• Container lifecycle
+• Run, stop, restart
+• Logs and debugging`
+},
+{
+ title:"Networking",
+ desc:`• Port mapping
+• Exposing applications
+• Docker networking basics`
+},
+{
+ title:"Images",
+ desc:`• Pull & push images
+• DockerHub usage
+• Image optimization`
+},
+{
+ title:"Docker System",
+ desc:`• Volumes & storage
+• Cleanup & performance
+• System internals`
+},
+{
+ title:"Dockerfile",
+ desc:`• Writing Dockerfile
+• Base images
+• Multi-stage builds`
+},
+{
+ title:"Terraform",
+ desc:`• What is Infrastructure as Code?
+• Providers (AWS basics)
+• Writing .tf files`
+},
+{
+ title:"Terraform Setup",
+ desc:`• Initialize & plan
+• Apply & destroy
+• Project structure`
+},
+{
+ title:"Variables",
+ desc:`• Input variables
+• Output variables
+• Dynamic infra`
+},
+{
+ title:"State",
+ desc:`• Terraform state file
+• Remote state (S3)
+• Locking`
+},
+{
+ title:"Functions",
+ desc:`• Built-in functions
+• Expressions
+• Conditionals`
+},
+{
+ title:"Provisioners",
+ desc:`• Local-exec & remote-exec
+• Running scripts after deploy`
+},
+{
+ title:"Terraform Project",
+ desc:`• Deploy EC2 or server
+• Automate infra end-to-end`
+},
+{
+ title:"Ansible",
+ desc:`• Agentless automation
+• Inventory setup
+• SSH basics`
+},
+{
+ title:"Playbooks",
+ desc:`• YAML basics
+• Writing playbooks
+• Automating tasks`
+},
+{
+ title:"Variables",
+ desc:`• Dynamic configs
+• Templates (Jinja2)`
+},
+{
+ title:"Error Handling",
+ desc:`• Ignore errors
+• Retry logic
+• Debugging playbooks`
+},
+{
+ title:"Roles",
+ desc:`• Reusable structure
+• Modular automation`
+},
+{
+ title:"Ansible Project",
+ desc:`• Setup server stack
+• Install apps automatically`
+},
+{
+ title:"Jenkins",
+ desc:`• What is Jenkins?
+• CI/CD server setup
+• Master-agent architecture`
+},
+{
+ title:"Jenkins Basics",
+ desc:`• Jobs & builds
+• Plugins
+• UI walkthrough`
+},
+{
+ title:"Pipeline",
+ desc:`• Jenkins Pipeline (IMPORTANT)
+• Declarative vs Scripted
+• Jenkinsfile creation
+• Automating build → test → deploy`
+},
+{
+ title:"Triggers",
+ desc:`• Git triggers
+• Webhooks
+• Auto build on commit`
+},
+{
+ title:"CI + Coverage",
+ desc:`• Continuous Integration
+• Code testing basics
+• Code coverage tools intro`
+},
+{
+ title:"Jenkins Project",
+ desc:`• Build full CI/CD pipeline
+• Git → Build → Docker → Deploy`
+},
+{
+ title:"Kubernetes",
+ desc:`• What is Kubernetes?
+• Cluster architecture
+• Master & worker nodes`
+},
+{
+ title:"Pods",
+ desc:`• Smallest unit in K8s
+• Deploy containers
+• YAML configs`
+},
+{
+ title:"Services",
+ desc:`• ClusterIP, NodePort
+• Exposing apps`
+},
+{
+ title:"Health Checks",
+ desc:`• Liveness & readiness probes
+• Self-healing`
+},
+{
+ title:"Troubleshooting",
+ desc:`• kubectl logs
+• describe commands
+• Debugging failures`
+},
+{
+ title:"Advanced Debug",
+ desc:`• CrashLoopBackOff fixes
+• Resource issues`
+},
+{
+ title:"Namespace",
+ desc:`• Logical separation
+• Multi-env setup`
+},
+{
+ title:"Init Containers",
+ desc:`• Pre-run setup tasks`
+},
+{
+ title:"Autoscaling",
+ desc:`• HPA (Horizontal Pod Autoscaler)
+• Scaling apps automatically`
+},
+{
+ title:"K8s Project",
+ desc:`• Deploy real app on cluster`
+},
+{
+ title:"GitOps",
+ desc:`• Git as source of truth
+• Tools: ArgoCD basics`
+},
+{
+ title:"Helm",
+ desc:`• Kubernetes package manager
+• Charts & templates`
+},
+{
+ title:"Monitoring",
+ desc:`• Prometheus (metrics)
+• Grafana (dashboards)
+• Alerting basics`
+},
+{
+ title:"Final Project",
+ desc:`• End-to-end DevOps flow
+• Git → Jenkins → Docker → K8s → Monitoring`
+},
+{
+ title:"Career",
+ desc:`• Resume building
+• Interview questions
+• Real DevOps tasks in companies`
+}
+];
 
-      function openModal(i){
-        document.getElementById('modalTitle').innerText = "Day " + (i+1);
-        document.getElementById('modalDesc').innerText = roadmap[i].desc;
-        document.getElementById('modal').classList.remove('hidden');
-      }
+document.write(roadmap.map((item, index) => `
+<div onclick="openModal(${index})" class="cursor-pointer bg-gray-800 p-4 rounded-2xl shadow-lg hover:scale-105 transition">
+<h2 class="text-lg font-semibold">Day ${index + 1}</h2>
+<p class="text-gray-400 mt-2">${item.title}</p>
+</div>
+`).join(''));
 
-      function closeModal(){
-        document.getElementById('modal').classList.add('hidden');
-      }
-    </script>
+function openModal(i){
+ document.getElementById('modalTitle').innerText = "Day " + (i+1) + " - " + roadmap[i].title;
+ document.getElementById('modalDesc').innerText = roadmap[i].desc;
+ document.getElementById('modal').classList.remove('hidden');
+}
+
+function closeModal(){
+ document.getElementById('modal').classList.add('hidden');
+}
+</script>
+
   </div>
 
   <!-- MODAL -->
   <div id="modal" class="hidden fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center">
-    <div class="bg-gray-800 p-6 rounded-xl max-w-md text-center">
+    <div class="bg-gray-800 p-6 rounded-xl max-w-md text-left">
       <h2 id="modalTitle" class="text-2xl font-bold"></h2>
-      <p id="modalDesc" class="text-gray-400 mt-4"></p>
+      <pre id="modalDesc" class="text-gray-400 mt-4 whitespace-pre-wrap"></pre>
       <button onclick="closeModal()" class="mt-6 px-4 py-2 bg-blue-500 rounded">Close</button>
     </div>
   </div>
 
   <footer class="text-center py-6 text-gray-500">
-    Built for DevOps learners • Stay consistent 🔥
+    Built for serious DevOps learners • Hands-on is everything 🔥
   </footer>
 
 </body>
